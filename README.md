@@ -1,14 +1,17 @@
 # 📅 Sistema de Gerenciamento de Salas
 
-Sistema web desenvolvido para gerenciamento e controle de reservas de salas, permitindo organizar agendamentos, evitar conflitos de horários e facilitar a administração dos espaços.
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![PHP](https://img.shields.io/badge/PHP-Backend-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Este projeto foi desenvolvido utilizando **PHP** para a lógica de back-end, **MySQL** para persistência de dados e **HTML, CSS e JavaScript** para construção da interface e interatividade.
+Sistema web para gerenciamento e controle de reservas de salas, desenvolvido com **PHP**, **MySQL** e tecnologias web modernas.
 
-A aplicação tem como objetivo substituir processos manuais de agendamento por uma solução digital simples, eficiente e organizada.
+A aplicação permite organizar agendamentos, evitar conflitos de horários e facilitar a administração dos espaços, substituindo processos manuais por uma solução digital eficiente e centralizada.
 
 ---
 
@@ -32,9 +35,17 @@ A aplicação tem como objetivo substituir processos manuais de agendamento por 
 
 ---
 
-## 🖼️ Demonstração
+## 🧠 Conceitos Aplicados
 
-### Tela do Sistema
+- Manipulação de formulários e requisições HTTP  
+- Integração com banco de dados relacional (MySQL)  
+- Organização de código backend com PHP  
+- Separação de responsabilidades (estrutura básica MVC)  
+- Validação de dados e controle de fluxo  
+
+---
+
+## 🖼️ Demonstração
 
 ![Tela 1](https://github.com/user-attachments/assets/fc2abe59-4098-4754-a9c4-703afae59b34)
 
@@ -53,19 +64,17 @@ A aplicação tem como objetivo substituir processos manuais de agendamento por 
 ├── /assets
 ├── index.php
 └── config.php
-```
-
----
-
-## ⚙️ Como Executar
-
-1. Clone o repositório:
+````
+⚙️ Como Executar
+Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
+Acesse a pasta do projeto:
+```bash
+cd seu-repositorio
+```
 Configure o banco de dados MySQL
 Ajuste as credenciais no arquivo config.php
-Execute em um servidor local (XAMPP, WAMP ou Laragon)
-🎯 Objetivo
-
-Facilitar o gerenciamento de salas, tornando o processo de reserva mais organizado, rápido e eficiente.
+Execute em um servidor local:
+XAMPP
